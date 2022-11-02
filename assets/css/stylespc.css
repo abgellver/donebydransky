@@ -1,0 +1,215 @@
+/*
+    ASPECTOS GENERALES, ARREGLOS
+*/
+* {
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+body {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 5.5em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+h2 {
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 4em;
+    position: relative;
+    bottom:1em;
+    margin-left: 1em;
+}
+
+/*HEADER*/
+
+body > header {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 13vh;
+    padding: 0 4em;
+}
+
+div, nav{
+    display: inline-block;
+}
+
+nav {
+    display: flex;
+    align-items:center;
+}
+
+.mainLogo {
+    width: 7em;
+    margin-bottom: 0.4em;
+}
+
+.logoProjects {
+    margin-left: 10em;
+}
+
+#socialMediaLogos img {
+    padding: 0 1.5em;
+}
+
+/*
+    MAIN
+*/
+    /*
+        MAIN FOTO
+    */
+.bg-texture2 {
+    width: 100%;
+    background-color: #000;
+    height: 65vh;
+    background-image: url(../img/BANNER.png);
+    background-attachment: fixed;
+    background-position: center;
+}
+
+    /*
+        POSICIONES ABSOLUTAS Y RELATIVAS
+    */
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+div > header {
+    bottom: -11em;
+    left: 3em;
+}
+
+#englishDescription {
+    margin: 0.25em 0 0.5em 0;
+}
+
+#spanishDescription {
+    margin-top: 0.5em;
+}
+#mainDescription {
+    bottom: -8.5em;
+    left: 10em;
+    width: 20vw;
+    text-align: center;
+    color: #3c3c3c;
+}
+
+#mainDescription hr {
+    width: 5vw;
+}
+
+hr {
+    width: 20vw;
+}
+/*
+    LINK TO PROJECTS
+*/
+
+#imagenLink {
+    width: 35vw;
+}
+
+#linkProyectos {
+    right:10em;
+    bottom: -6.25em;
+}
+
+    /*
+        PROJECTS PAGE
+    */
+
+#projects img {
+        max-height: 350px;
+        max-width: 22em;
+    }
+    
+iframe {
+        max-height: 300px;
+        max-width: 35em;
+    }
+.description {
+        height: 350px;
+        width: 30em;
+        text-align: center;
+    }
+
+h3 {
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 3em;
+}
+
+#videoProjects, #audioProjects {
+    background-color: #000;
+    color: #fff;
+    background-image: url(../img/BANNER.png);
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+#audioProjects {
+    height: 500px;
+}
+
+main > section {
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5em;
+    width:100%;
+}
+
+#photoProjects {
+    position: relative;
+    height: 400px;
+}
+
+#photoProjects > h3 {
+    position: absolute;
+    right: 0;
+}
+
+#photoProjects > div {
+    width: 95%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.description {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items:center;
+    margin: 0 2em;
+}
+
+#audioProjects .description {
+    width: 35vw;
+}
+
+#editedPhoto {
+    margin-left: -1.5em;
+}
+
+#arrow {
+    width: 2em;
+}
+
+
+
